@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		627F7E5C1B2A828300869896 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E581B2A828300869896 /* AVOSCloud.framework */; };
+		627F7E5D1B2A828300869896 /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E591B2A828300869896 /* AVOSCloudCrashReporting.framework */; };
+		627F7E5E1B2A828300869896 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E5A1B2A828300869896 /* AVOSCloudIM.framework */; };
+		627F7E5F1B2A828300869896 /* AVOSCloudSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E5B1B2A828300869896 /* AVOSCloudSNS.framework */; };
+		627F7E611B2A828900869896 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E601B2A828900869896 /* SystemConfiguration.framework */; };
+		627F7E631B2A828D00869896 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E621B2A828D00869896 /* MobileCoreServices.framework */; };
+		627F7E651B2A829300869896 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E641B2A829300869896 /* CoreLocation.framework */; };
+		627F7E671B2A829800869896 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E661B2A829800869896 /* CoreTelephony.framework */; };
+		627F7E691B2A829F00869896 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E681B2A829F00869896 /* libicucore.dylib */; };
+		627F7E6B1B2A82A800869896 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E6A1B2A82A800869896 /* libc++.dylib */; };
+		627F7E761B2AAB2C00869896 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F7E751B2AAB2C00869896 /* UIView+Toast.m */; };
+		627F7E791B2AAB9600869896 /* AppFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F7E781B2AAB9600869896 /* AppFunction.m */; };
 		62BBDCEA1B29BBE900212D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BBDCE91B29BBE900212D4D /* main.m */; };
 		62BBDCED1B29BBE900212D4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BBDCEC1B29BBE900212D4D /* AppDelegate.m */; };
 		62BBDCF01B29BBE900212D4D /* AccountBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62BBDCEE1B29BBE900212D4D /* AccountBook.xcdatamodeld */; };
-		62BBDCF31B29BBE900212D4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BBDCF21B29BBE900212D4D /* ViewController.m */; };
 		62BBDCF61B29BBE900212D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62BBDCF41B29BBE900212D4D /* Main.storyboard */; };
 		62BBDCF81B29BBE900212D4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62BBDCF71B29BBE900212D4D /* Images.xcassets */; };
 		62BBDCFB1B29BBE900212D4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62BBDCF91B29BBE900212D4D /* LaunchScreen.xib */; };
 		62BBDD071B29BBE900212D4D /* AccountBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BBDD061B29BBE900212D4D /* AccountBookTests.m */; };
+		62E172FE1B2A78AA003912FE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E172FB1B2A78AA003912FE /* LoginViewController.m */; };
+		62E172FF1B2A78AA003912FE /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E172FD1B2A78AA003912FE /* RegistViewController.m */; };
+		62E173021B2A78BA003912FE /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E173011B2A78BA003912FE /* UserManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +42,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		627F7E581B2A828300869896 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloud.framework; path = ../AVOSCloud/AVOSCloud.framework; sourceTree = "<group>"; };
+		627F7E591B2A828300869896 /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudCrashReporting.framework; path = ../AVOSCloud/AVOSCloudCrashReporting.framework; sourceTree = "<group>"; };
+		627F7E5A1B2A828300869896 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudIM.framework; path = ../AVOSCloud/AVOSCloudIM.framework; sourceTree = "<group>"; };
+		627F7E5B1B2A828300869896 /* AVOSCloudSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudSNS.framework; path = ../AVOSCloud/AVOSCloudSNS.framework; sourceTree = "<group>"; };
+		627F7E601B2A828900869896 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		627F7E621B2A828D00869896 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		627F7E641B2A829300869896 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		627F7E661B2A829800869896 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		627F7E681B2A829F00869896 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		627F7E6A1B2A82A800869896 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		627F7E741B2AAB2C00869896 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		627F7E751B2AAB2C00869896 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		627F7E771B2AAB9600869896 /* AppFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFunction.h; sourceTree = "<group>"; };
+		627F7E781B2AAB9600869896 /* AppFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppFunction.m; sourceTree = "<group>"; };
+		627F7E7A1B2AAD1900869896 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		62BBDCE41B29BBE900212D4D /* AccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BBDCE81B29BBE900212D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62BBDCE91B29BBE900212D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62BBDCEB1B29BBE900212D4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62BBDCEC1B29BBE900212D4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62BBDCEF1B29BBE900212D4D /* AccountBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountBook.xcdatamodel; sourceTree = "<group>"; };
-		62BBDCF11B29BBE900212D4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62BBDCF21B29BBE900212D4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62BBDCF51B29BBE900212D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62BBDCF71B29BBE900212D4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62BBDCFA1B29BBE900212D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		62BBDD001B29BBE900212D4D /* AccountBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BBDD051B29BBE900212D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62BBDD061B29BBE900212D4D /* AccountBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountBookTests.m; sourceTree = "<group>"; };
+		62E172FA1B2A78AA003912FE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/UserActivity/LoginViewController.h; sourceTree = "<group>"; };
+		62E172FB1B2A78AA003912FE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/UserActivity/LoginViewController.m; sourceTree = "<group>"; };
+		62E172FC1B2A78AA003912FE /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistViewController.h; path = ViewControllers/UserActivity/RegistViewController.h; sourceTree = "<group>"; };
+		62E172FD1B2A78AA003912FE /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistViewController.m; path = ViewControllers/UserActivity/RegistViewController.m; sourceTree = "<group>"; };
+		62E173001B2A78BA003912FE /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = Model/UserManager.h; sourceTree = "<group>"; };
+		62E173011B2A78BA003912FE /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = Model/UserManager.m; sourceTree = "<group>"; };
+		62E173031B2A78CA003912FE /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +83,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627F7E6B1B2A82A800869896 /* libc++.dylib in Frameworks */,
+				627F7E691B2A829F00869896 /* libicucore.dylib in Frameworks */,
+				627F7E671B2A829800869896 /* CoreTelephony.framework in Frameworks */,
+				627F7E651B2A829300869896 /* CoreLocation.framework in Frameworks */,
+				627F7E631B2A828D00869896 /* MobileCoreServices.framework in Frameworks */,
+				627F7E611B2A828900869896 /* SystemConfiguration.framework in Frameworks */,
+				627F7E5C1B2A828300869896 /* AVOSCloud.framework in Frameworks */,
+				627F7E5D1B2A828300869896 /* AVOSCloudCrashReporting.framework in Frameworks */,
+				627F7E5E1B2A828300869896 /* AVOSCloudIM.framework in Frameworks */,
+				627F7E5F1B2A828300869896 /* AVOSCloudSNS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +106,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		627F7E6C1B2A82AD00869896 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				627F7E6A1B2A82A800869896 /* libc++.dylib */,
+				627F7E681B2A829F00869896 /* libicucore.dylib */,
+				627F7E661B2A829800869896 /* CoreTelephony.framework */,
+				627F7E641B2A829300869896 /* CoreLocation.framework */,
+				627F7E621B2A828D00869896 /* MobileCoreServices.framework */,
+				627F7E601B2A828900869896 /* SystemConfiguration.framework */,
+				627F7E581B2A828300869896 /* AVOSCloud.framework */,
+				627F7E591B2A828300869896 /* AVOSCloudCrashReporting.framework */,
+				627F7E5A1B2A828300869896 /* AVOSCloudIM.framework */,
+				627F7E5B1B2A828300869896 /* AVOSCloudSNS.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		627F7E721B2AAB2C00869896 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				627F7E731B2AAB2C00869896 /* Toast */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		627F7E731B2AAB2C00869896 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				627F7E741B2AAB2C00869896 /* UIView+Toast.h */,
+				627F7E751B2AAB2C00869896 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
 		62BBDCDB1B29BBE900212D4D = {
 			isa = PBXGroup;
 			children = (
+				627F7E6C1B2A82AD00869896 /* Framework */,
 				62BBDCE61B29BBE900212D4D /* AccountBook */,
 				62BBDD031B29BBE900212D4D /* AccountBookTests */,
 				62BBDCE51B29BBE900212D4D /* Products */,
@@ -83,10 +162,13 @@
 		62BBDCE61B29BBE900212D4D /* AccountBook */ = {
 			isa = PBXGroup;
 			children = (
+				627F7E721B2AAB2C00869896 /* Tools */,
+				62E172F81B2A7873003912FE /* Model */,
+				62E172F71B2A7865003912FE /* ViewControllers */,
 				62BBDCEB1B29BBE900212D4D /* AppDelegate.h */,
 				62BBDCEC1B29BBE900212D4D /* AppDelegate.m */,
-				62BBDCF11B29BBE900212D4D /* ViewController.h */,
-				62BBDCF21B29BBE900212D4D /* ViewController.m */,
+				627F7E771B2AAB9600869896 /* AppFunction.h */,
+				627F7E781B2AAB9600869896 /* AppFunction.m */,
 				62BBDCF41B29BBE900212D4D /* Main.storyboard */,
 				62BBDCF71B29BBE900212D4D /* Images.xcassets */,
 				62BBDCF91B29BBE900212D4D /* LaunchScreen.xib */,
@@ -99,8 +181,10 @@
 		62BBDCE71B29BBE900212D4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62E173031B2A78CA003912FE /* Prefix.pch */,
 				62BBDCE81B29BBE900212D4D /* Info.plist */,
 				62BBDCE91B29BBE900212D4D /* main.m */,
+				627F7E7A1B2AAD1900869896 /* Constant.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +204,34 @@
 				62BBDD051B29BBE900212D4D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62E172F71B2A7865003912FE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62E172F91B2A788C003912FE /* UserActivity */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		62E172F81B2A7873003912FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62E173001B2A78BA003912FE /* UserManager.h */,
+				62E173011B2A78BA003912FE /* UserManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		62E172F91B2A788C003912FE /* UserActivity */ = {
+			isa = PBXGroup;
+			children = (
+				62E172FA1B2A78AA003912FE /* LoginViewController.h */,
+				62E172FB1B2A78AA003912FE /* LoginViewController.m */,
+				62E172FC1B2A78AA003912FE /* RegistViewController.h */,
+				62E172FD1B2A78AA003912FE /* RegistViewController.m */,
+			);
+			name = UserActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,10 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E172FE1B2A78AA003912FE /* LoginViewController.m in Sources */,
 				62BBDCF01B29BBE900212D4D /* AccountBook.xcdatamodeld in Sources */,
 				62BBDCED1B29BBE900212D4D /* AppDelegate.m in Sources */,
-				62BBDCF31B29BBE900212D4D /* ViewController.m in Sources */,
 				62BBDCEA1B29BBE900212D4D /* main.m in Sources */,
+				627F7E761B2AAB2C00869896 /* UIView+Toast.m in Sources */,
+				62E173021B2A78BA003912FE /* UserManager.m in Sources */,
+				62E172FF1B2A78AA003912FE /* RegistViewController.m in Sources */,
+				627F7E791B2AAB9600869896 /* AppFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +467,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/wangxinyan/Desktop/AVOSCloud,
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccountBook/Prefix.pch";
 				INFOPLIST_FILE = AccountBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -361,9 +483,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/wangxinyan/Desktop/AVOSCloud,
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccountBook/Prefix.pch";
 				INFOPLIST_FILE = AccountBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -420,6 +548,7 @@
 				62BBDD0C1B29BBE900212D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62BBDD0D1B29BBE900212D4D /* Build configuration list for PBXNativeTarget "AccountBookTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +557,7 @@
 				62BBDD0F1B29BBE900212D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
