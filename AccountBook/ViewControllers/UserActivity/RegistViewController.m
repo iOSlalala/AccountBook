@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *userNameTxF;
 @property (weak, nonatomic) IBOutlet UITextField *pwdTxF1;
 @property (weak, nonatomic) IBOutlet UITextField *pwdTxF2;
+@property (weak, nonatomic) IBOutlet UIButton *confirmBtn;
+@property (weak, nonatomic) IBOutlet UIButton *registBtn;
 
 @end
 
@@ -39,10 +41,12 @@
     _userNameTxF.hidden = !b;
     _pwdTxF1.hidden = !b;
     _pwdTxF2.hidden = !b;
+    _registBtn.hidden = !b;
 }
 
 - (void)beginCode:(BOOL)b{
     _codeTxF.hidden = !b;
+    _confirmBtn.hidden = !b;
 }
 
 - (IBAction)sendCodeAction:(id)sender {

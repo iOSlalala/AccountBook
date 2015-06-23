@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>622E9853-C356-4149-AA2D-41CD4F51AD39</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>AccountBook</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6A1371E87C2A6445CF458C0D8D32A24F0CD34C5E</key>
 		<string>https://github.com/iOSlalala/AccountBook</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AccountBook.xcodeproj/project.xcworkspace</string>
+	<string>AccountBook.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6A1371E87C2A6445CF458C0D8D32A24F0CD34C5E</key>

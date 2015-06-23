@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62461EE01B395BF800D28D73 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62461EDF1B395BF800D28D73 /* BaseTextField.swift */; };
+		62461EE21B395F5E00D28D73 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62461EE11B395F5E00D28D73 /* BaseButton.swift */; };
 		627F7E5C1B2A828300869896 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E581B2A828300869896 /* AVOSCloud.framework */; };
 		627F7E5D1B2A828300869896 /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E591B2A828300869896 /* AVOSCloudCrashReporting.framework */; };
 		627F7E5E1B2A828300869896 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F7E5A1B2A828300869896 /* AVOSCloudIM.framework */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62461EDC1B395ABA00D28D73 /* 华康娃娃体.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康娃娃体.TTF"; sourceTree = "<group>"; };
+		62461EDE1B395BF700D28D73 /* AccountBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AccountBook-Bridging-Header.h"; path = "ViewControllers/BaseClass/AccountBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		62461EDF1B395BF800D28D73 /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		62461EE11B395F5E00D28D73 /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		627F7E581B2A828300869896 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloud.framework; path = ../AVOSCloud/AVOSCloud.framework; sourceTree = "<group>"; };
 		627F7E591B2A828300869896 /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudCrashReporting.framework; path = ../AVOSCloud/AVOSCloudCrashReporting.framework; sourceTree = "<group>"; };
 		627F7E5A1B2A828300869896 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudIM.framework; path = ../AVOSCloud/AVOSCloudIM.framework; sourceTree = "<group>"; };
@@ -106,6 +112,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62461EDD1B395BE500D28D73 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				62461EDF1B395BF800D28D73 /* BaseTextField.swift */,
+				62461EE11B395F5E00D28D73 /* BaseButton.swift */,
+			);
+			name = BaseClass;
+			path = ViewControllers/BaseClass;
+			sourceTree = "<group>";
+		};
 		627F7E6C1B2A82AD00869896 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +197,8 @@
 		62BBDCE71B29BBE900212D4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62461EDE1B395BF700D28D73 /* AccountBook-Bridging-Header.h */,
+				62461EDC1B395ABA00D28D73 /* 华康娃娃体.TTF */,
 				62E173031B2A78CA003912FE /* Prefix.pch */,
 				62BBDCE81B29BBE900212D4D /* Info.plist */,
 				62BBDCE91B29BBE900212D4D /* main.m */,
@@ -209,6 +227,7 @@
 		62E172F71B2A7865003912FE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				62461EDD1B395BE500D28D73 /* BaseClass */,
 				62E172F91B2A788C003912FE /* UserActivity */,
 			);
 			name = ViewControllers;
@@ -337,8 +356,10 @@
 				62E172FE1B2A78AA003912FE /* LoginViewController.m in Sources */,
 				62BBDCF01B29BBE900212D4D /* AccountBook.xcdatamodeld in Sources */,
 				62BBDCED1B29BBE900212D4D /* AppDelegate.m in Sources */,
+				62461EE01B395BF800D28D73 /* BaseTextField.swift in Sources */,
 				62BBDCEA1B29BBE900212D4D /* main.m in Sources */,
 				627F7E761B2AAB2C00869896 /* UIView+Toast.m in Sources */,
+				62461EE21B395F5E00D28D73 /* BaseButton.swift in Sources */,
 				62E173021B2A78BA003912FE /* UserManager.m in Sources */,
 				62E172FF1B2A78AA003912FE /* RegistViewController.m in Sources */,
 				627F7E791B2AAB9600869896 /* AppFunction.m in Sources */,
@@ -467,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/wangxinyan/Desktop/AVOSCloud,
@@ -476,6 +498,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AccountBook/ViewControllers/BaseClass/AccountBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -483,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/wangxinyan/Desktop/AVOSCloud,
@@ -492,6 +517,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AccountBook/ViewControllers/BaseClass/AccountBook-Bridging-Header.h";
 			};
 			name = Release;
 		};
